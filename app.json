@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "todo.yoonseokoh.com",
     "slug": "Todo",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -15,7 +15,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6830CF"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +24,19 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.yoonseokoh.todo",
+      "icon": "./assets/ios-icon.png",
+      "buildNumber": "1.0.1",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yoonseokoh.todo",
+      "versionCode": 1,
+      "icon": "./assets/android-icon.png",
+      "adaptiveIcon": {
+        "backgroundColor": "#6830CF",
+        "foregroundImage": "./assets/android-foreground.png"
+      }
     }
   }
 }
